@@ -13,7 +13,7 @@ using namespace std; //
 string ROT15(string huruf) //String pada dasarnya adalah kumpulan dari karakter-karakter (karakter bertipe data char)
 {
     string kata = huruf;
-    for (int i = 0; i<kata.length(); ++i) // length untuk menghitung banyaknya karakter dalam variBEL string
+    for (int i = 0; i<kata.length(); i++) // length untuk menghitung banyaknya karakter dalam variBEL string
     {
         switch (kata[i]) //
         {
