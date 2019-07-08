@@ -10,9 +10,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 using namespace std; //
 
-string ROT15(string ascii) //String pada dasarnya adalah kumpulan dari karakter-karakter (karakter bertipe data char)
+string ROT15(string huruf) //String pada dasarnya adalah kumpulan dari karakter-karakter (karakter bertipe data char)
 {
-    string kata = ascii;
+    string kata = huruf;
     for (int i = 0; i<kata.length(); ++i) // length untuk menghitung banyaknya karakter dalam variBEL string
     {
         switch (kata[i]) //
