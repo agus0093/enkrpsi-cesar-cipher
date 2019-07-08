@@ -13,7 +13,7 @@ using namespace std; //
 string ROT15(string huruf) //String pada dasarnya adalah kumpulan dari karakter-karakter (karakter bertipe data char)
 {
     string kata = huruf;
-    for (int i = 0; i<kata.length(); ++i) // length untuk menghitung banyaknya karakter dalam variBEL string
+    for (int i = 0; i<kata.length(); i++) // length untuk menghitung banyaknya karakter dalam variBEL string
     {
         switch (kata[i]) //
         {
@@ -105,6 +105,6 @@ int main()
     string i;
     cout << "masukan pesan yang ingin di dekripsi : ";
     getline(cin, i); //gateline untuk membaca sepasi
-    cout << "hasil enkripsi : "<< ROT15(i) << endl;
+    cout << "hasil deskripsi : "<< ROT15(i) << endl;
     return 0;
 }
