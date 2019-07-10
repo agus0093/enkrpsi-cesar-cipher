@@ -15,7 +15,7 @@ string ROT15(string huruf) //String pada dasarnya adalah kumpulan dari karakter-
     string kata = huruf;
     for (int i = 0; i<kata.length(); i++) // length untuk menghitung banyaknya karakter dalam variBEL string
     {
-        switch (kata[i]) //
+        switch (kata[i]) //Switch Case merupakan salah satu bentuk percabangan, yang digunakan untuk pilihan berjumlah banyak
         {
             case 'a':
                 kata[i] = 'p';
